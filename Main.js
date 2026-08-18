@@ -1,5 +1,10 @@
-console.log("Hello, World!");
 
-for (let i = 0; i < 5; i++) {
+for (let i = 0; i < 50; i++) {
     console.log(`Iteration ${i}`);
 }
+
+function greet(name) {
+    return `Hello, ${name}!`;
+}
+
+console.log(greet("Wagner"));
