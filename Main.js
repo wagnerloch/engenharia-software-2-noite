@@ -4,7 +4,7 @@ for (let i = 0; i < 50; i++) {
 }
 
 function greet(name) {
-    return `Hello, ${name}!`;
+    return `Oi ${name}, tudo bem com você?`;
 }
 
 console.log(greet("Wagner"));
