@@ -32,3 +32,20 @@ function factorial(n) {
 }
 
 console.log(factorial(5));
+
+for (let i = 0; i < 10; i++) {
+    console.log(`Square of ${i} is ${i * i}`);
+}
+
+function isEven(num) {
+    return num % 2 === 0;
+}
+
+console.log(isEven(4)); // true
+console.log(isEven(7)); // false
+
+function reverseString(str) {
+    return str.split('').reverse().join('');
+}
+
+console.log(reverseString("Hello, World!")); // !dlroW ,olleH
