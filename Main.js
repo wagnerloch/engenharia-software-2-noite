@@ -43,9 +43,3 @@ function isEven(num) {
 
 console.log(isEven(4)); // true
 console.log(isEven(7)); // false
-
-function reverseString(str) {
-    return str.split('').reverse().join('');
-}
-
-console.log(reverseString("Hello, World!")); // !dlroW ,olleH
