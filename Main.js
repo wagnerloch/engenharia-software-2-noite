@@ -43,3 +43,15 @@ function isEven(num) {
 
 console.log(isEven(4)); // true
 console.log(isEven(7)); // false
+
+function reverseString(str) {
+    return str.split('').reverse().join('');
+}
+
+console.log(reverseString("Hello World")); // "dlroW olleH"
+
+function findMax(arr) {
+    return Math.max(...arr);
+}
+
+console.log(findMax([1, 5, 3, 9, 2])); // 9
