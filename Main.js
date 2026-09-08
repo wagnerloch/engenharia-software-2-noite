@@ -55,3 +55,5 @@ function findMax(arr) {
 }
 
 console.log(findMax([1, 5, 3, 9, 2])); // 9
+
+console.log("All functions executed successfully.");
